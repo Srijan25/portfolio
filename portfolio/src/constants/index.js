@@ -16,6 +16,7 @@ import {
     figma,
     docker,
     meta,
+    infosys,
     starbucks,
     tesla,
     shopify,
@@ -23,6 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    threat,
+    zumply,
+    suven,
   } from "../assets";
   
   export const navLinks = [
@@ -116,55 +120,56 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full-Stack Developer",
+      company_name: "Infosys Springboard",
+      icon: infosys,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2022 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developed a full stack web application using a Model View Controller (MVC) framework.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized HTML, CSS, JavaScript, and ReactJS to create dynamic user interfaces.",
+        "Wrote unit and integration tests to ensure the quality of the code.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Machine Learning Intern",
+      company_name: "Suven Pvt Ltd",
+      icon: suven,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sept 2022",
+      points: [
+        "Designed and developed an algorithm to predict sales utilizing supervised learning and neural network models to improve accuracy of predictions.",
+        "Created a model that have high prediction value.",
+        "Utilized Python, Pandas, and NumPy to clean and analyze data.",
+
+       
+      ],
+    },
+    {
+      title: "Full-Stack Developer",
+      company_name: "Threat Gaurdian Pvt Ltd",
+      icon: threat,
+      iconBg: "#383E56",
+      date: "Sept 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created E-Leaning platform for the company.",
+        "Design database models for the applications.",
+        "Work in a team and design the offical website for the company."
+      ],
+    },
+    {
+      title: "Software Developer",
+      company_name: "Zumply",
+      icon: zumply,
+      iconBg: "#E6DEDD",
+      date: "Feb 2023 - June 2023",
+      points: [
+        "Developed and maintained web applications using AngularJS and Spring Boot.",
+        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Create a doctor appointment booking system for the company.",
+        "Work in a team and design the application for the company."
       ],
     },
   ];

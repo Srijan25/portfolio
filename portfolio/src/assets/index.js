@@ -22,9 +22,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import infosys from "./company/infosys.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import threat from "./company/threat.png";
+import zumply from "./company/zumply.png";
+import suven from "./company/suven.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,6 +59,10 @@ export {
   meta,
   shopify,
   starbucks,
+  infosys,
+  zumply,
+  suven,
+  threat,
   tesla,
   carrent,
   jobit,
