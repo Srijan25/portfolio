@@ -50,7 +50,7 @@ import {
       icon: backend,
     },
     {
-      title: "API Developer",
+      title: "API Integration",
       icon: mobile,
     },
     {
