@@ -44,7 +44,7 @@ const Works = () => {
     </motion.div>
     <div className="w-full flex">
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I have worked on a lot of projects, some of which are open source and some are private. I have worked on projects ranging from web development to machine learning. I have also worked on some projects which are not related to programming at all. I have listed some of my projects below. You can also check out my github profile for more projects.
+        I have worked on a lot of projects, some of them are open source and some are private. I have worked on projects ranging from web development to machine learning. I have also worked on some projects which are not related to programming at all. I have listed some of my projects below. You can also check out my github profile for more projects.
       </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7 '>

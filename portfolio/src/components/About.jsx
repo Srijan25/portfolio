@@ -29,7 +29,7 @@ const About = () => {
           experience in developing web applications using ReactJS, AngularJS,
           NodeJS, SpringBoot, ExpressJS, MongoDB, MySQL, PostgreSQL, TailwindCSS,
           MaterialUI, Bootstrap, HTML, CSS, JavaScript, TypeScript, Python, C++,
-          C, Java, and also worded with APIs. I'm quick learner and I'm always ready to learn new technologies and skills.
+          C, Java, and also worked with APIs. I'm quick learner and I'm always ready to learn new technologies and skills.
           Let's work together to bring your ideas to life.
         </motion.p>
         <div className="mt-20 flex flex-wrap gap-10" >
