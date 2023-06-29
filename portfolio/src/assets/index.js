@@ -20,6 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import spring from "./tech/spring.png";
+import postman from "./tech/postman.png";
+import vscode from "./tech/vscode.png";
+import python from "./tech/python.png";
+import db from "./tech/db.png";
+import php from "./tech/php.png";
+import laravel from "./tech/laravel.png";
+import angular from "./tech/angular.png";
 
 import meta from "./company/meta.png";
 import infosys from "./company/infosys.png";
@@ -33,6 +41,9 @@ import suven from "./company/suven.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import shopease from "./shopease.png";
+import anynet from "./anynet.png";
+import doc from "./zumply.png";
 
 export {
   logo,
@@ -67,4 +78,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  spring,
+  postman,
+  vscode,
+  python,
+  db,
+  php,
+  laravel,
+  angular,
+  shopease,
+  anynet,
+  doc,
+
 };

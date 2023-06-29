@@ -27,6 +27,17 @@ import {
     threat,
     zumply,
     suven,
+    spring,
+    postman,
+    vscode,
+    python,
+    db,
+    php,
+    laravel,
+    angular,
+    shopease,
+    anynet,
+    doc,
   } from "../assets";
   
   export const navLinks = [
@@ -85,8 +96,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Angular JS",
+      icon: angular,
     },
     {
       name: "Tailwind CSS",
@@ -109,13 +120,35 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Spring Boot",
+      icon: spring,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Postman",
+      icon: postman,
     },
+    {
+      name: "VS Code",
+      icon: vscode,
+    },
+    
+    {
+      name: "MySQL",
+      icon: db,
+    },
+    {
+      name: "PHP",
+      icon: php,
+    },
+    {
+      name: "Laravel",
+      icon: laravel,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    
   ];
   
   const experiences = [
@@ -174,97 +207,72 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "ShopEase",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "ShopEase is a web application that allows users to search for products, view product details, and add products to a shopping cart. Users can also view their order history and checkout items in their shopping cart.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "springboot",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: shopease,
+      source_code_link: "https://github.com/Srijan25",
     },
     {
-      name: "Job IT",
+      name: "Anynet Connect",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Anynet Connect is a Website that connect people with each other. It is a social media platform that allows users to connect with each other and share their thoughts and ideas.",
       tags: [
         {
-          name: "react",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "laravel",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "phpmyadmin",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: anynet,
+      source_code_link: "https://github.com/Srijan25",
     },
     {
-      name: "Trip Guide",
+      name: "Doctor Appointment ",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Doctor Appointment Booking System is a web application that allows users to book an appointment with a doctor. Users can also view their appointment history and cancel appointments.",
       tags: [
         {
-          name: "nextjs",
+          name: "angular js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "springboot",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mysql",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image:doc,
+      source_code_link: "https://github.com/Srijan25",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

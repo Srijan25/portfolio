@@ -6,6 +6,9 @@ import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
+// service_dwuozpa
+// template_jvzrwxo
+// xgWGH5Mkhs6XWkJAi
 const Contact = () => {
   const formRef=useRef()
   const [form,setForm]=useState({
@@ -14,8 +17,35 @@ const Contact = () => {
     message:''
   })
   const [loading,setLoading]=useState(false)
-  const handleChange=(e)=>{}
-  const handleSubmit=(e)=>{}
+  const handleChange=(e)=>{
+    const {name,value}=e.target
+    setForm({...form,[name]:value})
+  }
+  const handleSubmit=(e)=>{
+    e.preventDefault()
+    setLoading(true)
+    emailjs.send('service_dwuozpa','template_jvzrwxo',{
+      from_name:form.name,
+      to_name:'Srijan',
+      from_email:form.email,
+      to_email:'srijanksah02@gmail.com',
+      message:form.message
+    },'xgWGH5Mkhs6XWkJAi')
+    .then(()=>{
+      setLoading(false)
+      alert('Thankyou for contacting me. I will get back to you soon.')
+      setForm({
+        name:'',
+        email:'',
+        message:''
+      })
+      
+    },(error)=>{
+      setLoading(false)
+      console.log(error.text)
+      alert('There was some error. Please try again later.')
+    })
+  }
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div variants={slideIn("left","tween",0.2,1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
